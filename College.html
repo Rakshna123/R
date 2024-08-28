@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="College.css">
+    <!-- <script src="College.js"></script> -->
+</head>
+<body>
+    <p class="h1">College Registration Form</p>
+    <div class="main-box">
+        <form class="forms" name="myForm">
+            <label for="name" name="fname">Name: </label>
+            <input type="text" id="name" placeholder="Enter your name" required><br><br>
+            <label for="age">Age: </label>
+            <input type="number" placeholder="Enter your age" required><br><br>
+            <label for="DOB">DOB: </label>
+            <input type="date"  placeholder="Enter your DOB" required><br><br>
+            <label for="gender">Gender: </label>
+            <input type="radio" name="gender" placeholder="Enter your gender"> Male
+            <input type="radio" name="gender" placeholder="Enter your gender"> Female<br><br>
+            <label for="10th">Percentage in 10th:</label>
+            <input type="text" placeholder="Enter your 10th percentage" required><br><br>
+            <label for="12th">Percentage in 12th:</label>
+            <input type="text" placeholder="Enter your 12th percentage" required> <br><br>
+            <label for="mail">Email:</label>
+            <input type="email" placeholder="Enter your email" required><br><br>
+            <label for="address">Address:</label> 
+            <textarea placeholder="Enter your address" required></textarea><br><br>
+            <label for="phone">Phone no:</label>
+            <input id="phone" type="text" placeholder="Enter your phone no." required><br><br>
+            <p id="para"></p>
+            <!-- <button type="button" onclick="myFunction()">Submit</button> -->
+            <input value="submit" class="sub" onsubmit="myFunction()" type="submit">
+            <!-- <button type="button" >Submit</button> -->
+
+
+        </form>
+    </div>
+</body>
+</html>
